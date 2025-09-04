@@ -1,0 +1,224 @@
+
+ body {
+            background: linear-gradient(to right, blue, pink);
+            scroll-behavior: smooth;
+        }
+
+        p {
+            color: greenyellow;
+        }
+
+        .f1 {
+            text-align: center;
+            font-size: 40px;
+            color: chocolate;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+            margin-right: 45px;
+            margin-left: 40px;
+            margin-top: 50px;
+        }
+
+        .f1 img {
+            height: 250px;
+            width: 250px;
+            border-radius: 50%;
+            border: 2px solid blue;
+        }
+
+        h1, h2 {
+            text-align: center;
+            color: coral;
+        }
+
+        li {
+            color: greenyellow;
+            font-size: 25px;
+        }
+
+        .nav {
+            display: flex; 
+            justify-content: center;
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+
+        a {
+            display: inline-block;
+            text-decoration: none;
+            font-size: 30px;
+            margin: 35px;
+            color: burlywood;
+        }
+
+        a:hover {
+            border-color: antiquewhite;
+            border: 3px solid;
+            border-radius: 7px;
+        }
+
+        section {
+            display: none;
+        }
+
+        section.active {
+            display: block;
+        }
+
+        #corner {
+            margin-left: 900px;
+            font-size: 35px;
+            margin-top: 0px;
+        }
+
+        .c {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .c p {
+            font-size: 30px;
+            margin-left: 10px;
+            margin-right: 20px;
+        }
+
+        .c img {
+            height: 250px;
+            width: 250px;
+            border-radius: 18px;
+        }
+
+        #m1 {
+            margin-top: 25px;
+            height: 250px;
+            width: 250px;
+            margin-right: 15px;
+        }
+
+        #mm {
+            display: flex;
+            flex-direction: row;
+        }
+
+        #mm p {
+            font-size: 30px;
+            margin-right: 12px;
+        }
+
+        #mm img {
+            border-radius: 18px;
+        }
+
+        #n {
+            height: 250px;
+            width: 250px;
+            margin-top: 25px;
+            margin-right: 50px;
+            border-radius: 20px;
+        }
+
+        #n1 {
+            height: 200px;
+            width: 200px;
+            border-radius: 15px;
+            margin-top: 25px;
+        }
+
+        li {
+            margin: 25px;
+        }
+
+        .box {
+            height: fit-content;
+            padding: 5px;
+            transition: transform;
+            border-radius: 8px;
+            border: 3px solid gold;
+            background-color: rgba(0, 0, 0, 0.4);
+            box-shadow: 0px 0px 10px gold;
+        }
+
+        .box:hover {
+            transform: scaleY(1.1);
+            background-color: rgba(0, 0, 0, 0.6);
+        }
+
+        .cards {
+            margin-left: 80px;
+            display: grid;
+            grid-gap: 25px;
+            grid-template-columns: 520px 520px;
+        }
+
+        .dis {
+            display: grid;
+            grid-template-columns: 350px 350px 350px 350px;
+            grid-gap: 30px;
+        }
+
+        .boxi {
+            display: flex;
+            flex-direction: column;
+            border: 3px double yellow;
+        }
+
+        .boxi img {
+            height: 250px;
+            width: 345px;
+        }
+
+        .boxi p {
+            font-weight: 200;
+            font-size: 25px;
+        }
+
+        .x {
+            display: flex;
+            flex-direction: row;
+        }
+
+        #con {
+            color: black;
+        }
+
+        .abcd {
+            display: none;
+            height: fit-content;
+            width: 700px;
+            background-color: rgb(228, 226, 105);
+            color: black;
+            justify-content: center;
+            align-items: center;
+            position: fixed;
+            border-radius: 15px;
+            top: 40%;
+            left: 35%;
+            padding: 20px; 
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5); 
+            border: 2px solid #333; 
+        }
+
+        .abcd h1 {
+            color: #333;
+            text-align: left;
+            margin: 0;
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        .abcd button {
+            background: none;
+            border: none;
+            color: #333;
+            font-size: 30px;
+            cursor: pointer;
+            padding: 5px 10px;
+            transition: transform 0.2s ease-in-out;
+            margin-left: auto; 
+        }
+        
+        .abcd button:hover {
+            transform: scale(1.2);
+            color: #a00;
+        }
